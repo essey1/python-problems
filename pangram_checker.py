@@ -17,5 +17,6 @@ def pangram_checker(text):
     else:
         print("This text is not a pangram.")
 
-pangram_checker(input("Enter a text:"))
+input_str = input("Enter a text:")
+pangram_checker(input_str)
         
